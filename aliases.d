@@ -1,0 +1,8 @@
+alias ruby="docker run --rm=true -it -v ${PWD}:/home/user -w /home/user stephane/webdev-tools ruby"
+alias sass="docker run --rm=true -it -v ${PWD}:/home/user stephane/webdev-tools sass"
+alias gulp="docker run --rm=true -it -v ${PWD}:/home/user stephane/webdev-tools gulp"
+alias grunt="docker run --rm=true -it -v ${PWD}:/home/user stephane/webdev-tools grunt"
+alias yo="docker run --rm=true -it -v ${PWD}:/home/user stephane/webdev-tools yo"
+alias node="docker run --rm=true -it -v ${PWD}:/home/user stephane/webdev-tools node"
+alias npm="docker run --rm=true -it -v ${PWD}:/home/user stephane/webdev-tools npm"
+alias bower="docker run --rm=true -it -v ${PWD}:/home/user stephane/webdev-tools bower"
